@@ -22,6 +22,6 @@ Usage:
 
 Resources created by this code are: Lambda Function, Lambda Layer, Security Group, AWS Secrets Manager Secret containing dummy credentials for host, share, username, password. The secret should be updated with valid credentials before running the lambda function.
 
-This code is based on this AWS Blog and corresponding [repo](https://github.com/aws-samples/aws-lambda-smb-shares/tree/main/src/pythonSMB/function).
+This code is based on this [AWS Blog](https://aws.amazon.com/blogs/storage/enabling-smb-access-for-serverless-workloads/) and corresponding [repo](https://github.com/aws-samples/aws-lambda-smb-shares/tree/main/src/pythonSMB/function).
 
 Todo: Add github workflows for automation. Format alerts with information on environment and runbook.
