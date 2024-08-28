@@ -11,7 +11,7 @@ provider "aws" {
     tags = {
       Name        = "ClearUp-SMB-Lambda"
       Environment = var.environment
-      Code        = "github"
+      Code        = "github.com/CriminalInjuriesCompensationAuthority/cicainfrastructure-clearup-smb-lambda"
     }
   }
 }
