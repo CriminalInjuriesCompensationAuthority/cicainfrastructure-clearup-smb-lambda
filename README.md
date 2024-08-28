@@ -24,4 +24,6 @@ Resources created by this code are: Lambda Function, Lambda Layer, Security Grou
 
 This code is based on this [AWS Blog](https://aws.amazon.com/blogs/storage/enabling-smb-access-for-serverless-workloads/) and corresponding [repo](https://github.com/aws-samples/aws-lambda-smb-shares/tree/main/src/pythonSMB/function).
 
+NB: This code assumes that you already have an existing VPC and ssm endpoint configured for your VPC.
+
 Todo: Add github workflows for automation. Format alerts with information on environment and runbook.
